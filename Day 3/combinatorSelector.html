@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    /*<!--Descenant-->*/
+    div p span {
+      color : blue;
+    }
+    /*Child*/
+    div>p>span {
+      color : green;
+    }
+  </style>
+</head>
+<body>
+  <!--Descendant Selector-->
+  <!--Child Selector-->
+  <div>
+    <p>
+      <span>I am a child</span>
+    </p>
+  </div>
+  <div>
+    <span>
+      <p>
+        <span>I am a descendent</span>
+      </p>
+    </span>
+  </div>
+</body>
+</html>
