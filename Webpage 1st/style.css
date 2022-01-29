@@ -10,7 +10,12 @@ img[src = "images/lab.jpg"] {
     background-color: black;
     color: white;
 }
-
+.navbar>nav {
+    display: flex;
+}
+ul {
+    display : flex;
+}
 .footer>p{
     font-size: 25px;
 }
