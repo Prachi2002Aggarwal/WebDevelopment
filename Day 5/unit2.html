@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ems li {
+            font-size: 1.5em;
+        }
+        .rems li {
+            font-size: 1.5rem;
+        }
+    </style>
+
+</head>
+<body>
+        <!--rem-->
+        <ul class = "rems">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three
+                <ul>
+                    <li>Three a</li>
+                    <li>Three b
+                        <ul>
+                            <li>Three b a</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <!--em-->
+    <ul class = "ems">
+<!--        1.5 * 16 = 24-->
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+        <ul>
+<!--            24 * 1.5 = 36-->
+            <li>Three a</li>
+            <li>Three b
+<!--                36*1.5 = 54-->
+                <ul>
+                <li>Three b a</li>
+                </ul>
+            </li>
+        </ul>
+        </li>
+    </ul>
+</body>
+</html>
