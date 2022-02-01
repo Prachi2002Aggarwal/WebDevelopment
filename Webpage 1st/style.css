@@ -1,11 +1,13 @@
 h1 {
     margin-left : 3rem;
+    font-weight : 400;
 }
 li {
     /*dots hatane ke liye*/
     list-style : none;
     margin-left : 2rem;
-    margin-right : 2rem;
+    padding : 13px;
+    font-size : 1.3rem;
 }
 .navbar > nav {
     /*taki DEV and HTML , CSS , Javascript ak line me aae*/
@@ -16,6 +18,7 @@ li {
 ul {
     /*taki HTML CSS javascript bhi side by side aae*/
     display : flex;
+    margin-right : 2rem;
 }
 img[src = "images/lab.jpg"] {
     height:100vh;
@@ -26,10 +29,16 @@ img[src = "images/lab.jpg"] {
 .skills {
     /*taki vo image ke saath wale htm css javascript suide by side aae*/
     display: flex;
+
 }
 .skills>div {
-    text-align : center;
-    margin-top : 1rem;
+    margin-left:1vw;
+    width: 30vw;
+    text-align: center;
+    margin-top: 2rem;
+}
+.skills>div>p{
+    padding: 1rem;
 }
 .footer{
     background-color: black;
@@ -38,4 +47,14 @@ img[src = "images/lab.jpg"] {
 }
 .footer>p{
     font-size: 25px;
+}
+a:link , a:visited {
+    color : rgb(0,0,0);
+}
+a:hover {
+    color :rgb(255,0,0);
+}
+a{
+    /*link ke niche lines aati h vo hat jati h */
+    text-decoration: none;
 }
