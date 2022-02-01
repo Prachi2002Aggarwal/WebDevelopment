@@ -2,15 +2,19 @@ h1 {
     margin-left : 3rem;
 }
 li {
+    /*dots hatane ke liye*/
     list-style : none;
     margin-left : 2rem;
     margin-right : 2rem;
 }
 .navbar > nav {
+    /*taki DEV and HTML , CSS , Javascript ak line me aae*/
     display:flex;
+    /*taki DEV and HTML , CSS , Javascript max distance pe rahe */
     justify-content: space-between;
 }
 ul {
+    /*taki HTML CSS javascript bhi side by side aae*/
     display : flex;
 }
 img[src = "images/lab.jpg"] {
@@ -20,6 +24,7 @@ img[src = "images/lab.jpg"] {
     margin-right : 2vw;
 }
 .skills {
+    /*taki vo image ke saath wale htm css javascript suide by side aae*/
     display: flex;
 }
 .skills>div {
@@ -27,7 +32,6 @@ img[src = "images/lab.jpg"] {
     margin-top : 1rem;
 }
 .footer{
-    height: 80px;
     background-color: black;
     color: white;
     text-align : center;
