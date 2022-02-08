@@ -1,0 +1,45 @@
+.nav {
+    display : flex;
+}
+.box {
+    border : 2px solid black;
+    padding : 5px;
+    /*margin : 0 10px 0 10px;*/
+}
+.box,.small {
+    margin-right : 2px;
+}
+.size {
+    margin-top : 20rem;
+    margin-left : 20px;
+    margin-right : 30px;
+    height : 40px;
+    width : 50px;
+}
+.side {
+    display: flex;
+}
+.corner {
+    width : 10vw;
+    height : 80vh;
+}
+.small {
+    width : 5rem;
+}
+.resize {
+    width : 15vw;
+}
+.size1 {
+    width : 200px;
+    height : 200px;
+}
+h3 {
+    text-align : center;
+}
+.demo {
+    width : 80vw;
+    height : 80vh;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: end;
+}

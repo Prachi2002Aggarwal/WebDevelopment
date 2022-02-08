@@ -44,3 +44,16 @@ console.log(`half of ${num} is ${num/2}`)
 //allowed redeclaration
 var b = 10
 var c = 10
+
+let l = 200
+console.log(l)
+l = 20000
+console.log(l)
+
+//loop and if
+var num1 = 10
+for(var i= 0 ; i < num1 ; i++) {
+    if((i % 2 )=== 0) {
+        console.log(i);
+    }
+}
