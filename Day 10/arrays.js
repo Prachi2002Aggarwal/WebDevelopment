@@ -40,3 +40,4 @@ console.table(array2D)
 console.log(array2D[1][2])
 
 console.log(array2D)
+console.log(array2D)
